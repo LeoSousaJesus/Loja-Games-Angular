@@ -1,0 +1,76 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 800px;
+}
+
+#section-login{
+    margin-top: 100px;
+    height: 100%;
+    width: 400px;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px 20px;
+}
+
+#section-login h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#section-login h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#section-login form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#section-login form input{
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+#section-login form button{
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#section-login form button:hover{
+    background-color: black;
+}
+
+#section-login p{
+    text-align: center;
+    margin-top: 15px;
+}
+
+#section-login p a{
+    color: blue;
+    text-decoration: none;
+}
+
+#section-login p a:hover{
+    text-decoration: underline;
+}
+
+#body-login{
+    background-color: black;
+}
+
+#section-login{
+    background-color: #ffffff;
+}
