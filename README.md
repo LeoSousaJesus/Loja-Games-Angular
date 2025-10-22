@@ -1,7 +1,5 @@
 # Loja de Games em Angular
 
-![Loja de Games Banner](https://via.placeholder.com/1200x400/000000/FFFFFF?text=Loja+de+Games+Angular)
-
 ## Visão Geral
 
 Este projeto é uma aplicação web desenvolvida em Angular para simular uma loja de jogos online. O objetivo é apresentar uma interface de usuário para navegação, visualização de jogos e um sistema de login básico. A aplicação utiliza o framework Angular, Angular Material para componentes de UI e Bootstrap para elementos como o carrossel.
@@ -76,16 +74,16 @@ npm install -g @angular/cli
 
 1.  **Clone o repositório:**
 
-    ```bash
+```bash
 git clone https://github.com/LeoSousaJesus/Loja-Games-Angular.git
 cd Loja-Games-Angular
-    ```
+```
 
 2.  **Instale as dependências:**
 
-    ```bash
+```bash
 npm install
-    ```
+```
 
 ### Execução
 
@@ -111,17 +109,17 @@ Os artefatos de construção serão armazenados no diretório `dist/`.
 
 *   **Testes Unitários:**
 
-    ```bash
+```bash
 ng test
-    ```
+```
 
     Executa os testes unitários via [Karma](https://karma-runner.github.io).
 
 *   **Testes End-to-End:**
 
-    ```bash
+```bash
 ng e2e
-    ```
+ ```
 
     Executa os testes end-to-end. Você precisará adicionar um pacote que implemente recursos de teste end-to-end (ex: Cypress, Protractor).
 
